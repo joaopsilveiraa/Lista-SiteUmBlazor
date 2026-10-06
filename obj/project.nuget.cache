@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "16QrUU5LTIw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jleal\\SiteUmBlazor\\SiteUmBlazor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jleal\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.11\\microsoft.aspnetcore.app.internal.assets.10.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

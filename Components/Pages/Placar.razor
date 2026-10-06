@@ -1,0 +1,31 @@
+@page "/placar"
+
+<h1>Placar: @pontos</h1>
+
+<div class="d-flex gap-2 mt-3">
+    <button class="btn btn-success" @onclick="SomarPonto">Somar 1 Ponto</button>
+    <button class="btn btn-warning" @onclick="SubtrairPonto">Subtrair 1 Ponto</button>
+    <button class="btn btn-danger" @onclick="ZerarPlacar">Zerar Placar</button>
+</div>
+
+@code {
+    private int pontos = 0;
+
+    private void SomarPonto()
+    {
+        pontos++;
+    }
+
+    private void SubtrairPonto()
+    {
+        if (pontos > 0)
+        {
+            pontos--;
+        }
+    }
+
+    private void ZerarPlacar()
+    {
+        pontos = 0;
+    }
+}
